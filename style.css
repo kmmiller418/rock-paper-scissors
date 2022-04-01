@@ -1,0 +1,31 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    margin: 3em;
+}
+
+main {
+    margin-left: 3em;
+}
+
+.user-input input {
+    margin-bottom: 3em;
+    margin-left: .5em;
+    width: 50%;
+}
+
+.hand-container button {
+    background-color: lightcyan;
+    border-style: groove;
+}
+
+.hand-container button:hover {
+    background-color: aquamarine;
+}
+
+i {
+    font-size: 3em;
+}
