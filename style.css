@@ -17,13 +17,13 @@ main {
     width: 50%;
 }
 
-.hand-container button {
+.container button {
     background-color: lightcyan;
     border-style: groove;
 }
 
-.hand-container button:hover {
-    background-color: aquamarine;
+.container button:hover {
+    background-color: cyan;
 }
 
 i {
