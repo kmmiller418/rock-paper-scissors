@@ -1,5 +1,7 @@
 # ROCK PAPER SCISSORS
 
+Check out the app [here](https://kmmiller418.github.io/rock-paper-scissors/)
+
 A rework of an earlier assignment, this takes JS rock paper scissors and sticks it in the browser.
 
 Current implementation accepts user input for name and associates it with a player object:
