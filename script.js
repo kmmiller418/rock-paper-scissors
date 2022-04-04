@@ -65,6 +65,8 @@ playRound = () => {
 
   }, 1000);
 
+  setTimeout(clearCPUHand, 1000);
+
 };
 
 updateScore = () => {
@@ -91,3 +93,7 @@ showCPUHand = (hand) => {
       break;
   }
 };
+
+clearCPUHand = () => {
+  computerHand.innerHTML = "";
+}
