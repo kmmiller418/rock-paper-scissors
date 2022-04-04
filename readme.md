@@ -13,9 +13,10 @@ let p1 = {
 And allows players to choose from three onscreen buttons to play against the CPU.
 
 ### Next steps:
-* Visual representation of CPU hand
-* Score counter + player information
+* ~~Visual representation of CPU hand~~ 4/3
+* ~~Score counter + player information~~ 4/3
 * Play until option
 * Animations?
+* Message when attempting to play without inputting name 
 
 
