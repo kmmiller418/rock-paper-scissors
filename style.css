@@ -11,10 +11,32 @@ main {
     margin-left: 3em;
 }
 
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.user-input {
+    width: 45%;
+}
+
 .user-input input {
-    margin-bottom: 3em;
     margin-left: .5em;
-    width: 50%;
+    width: 70%;
+}
+
+.computer-hand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 2px solid navy;
+    margin-right: 25%;
+}
+
+.computer-hand i {
+    font-size: 3em;
 }
 
 .container button {
@@ -26,6 +48,20 @@ main {
     background-color: cyan;
 }
 
-i {
+.container i {
     font-size: 3em;
+}
+
+.scoreboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scoreboard h1 {
+    width: 100%;
+}
+
+.scoreboard div {
+    padding-right: 15em;
+    margin-bottom: 2em;
 }

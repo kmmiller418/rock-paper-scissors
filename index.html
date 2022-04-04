@@ -23,17 +23,35 @@
     </header>
 
     <main>
-      <div class="user-input">
-        <input
-          type="text"
-          placeholder="WHO ARE YOU TO CHALLENGE THE COMPUTER?"
-        />
-        <button class="user-submit">SUBMIT</button>
+      <div class="top">
+        <div class="user-input">
+          <input
+            type="text"
+            placeholder="WHO ARE YOU TO CHALLENGE THE COMPUTER?"
+          />
+          <button class="user-submit">SUBMIT</button>
+        </div>
+  
+        <div class="computer-hand">
+          
+        </div>
+      </div>
+      
+      <div class="scoreboard">
+        <h1>Scoreboard</h1>
+        <div class="player-info">
+          <h3>Challenger <span class="user-name"> </span></h3>
+          <p>Score: <span class="user-score">0</span></p>
+        </div>
+        <div class="computer-info">
+          <h3>Computer</h3>
+          <p>Score: <span class="computer-score">0</span></p>
+        </div>
       </div>
 
       <div class="container">
         <p>Choose Wisely:</p>
-        <div class="row align-items-start">
+        <div class="row gy-5 align-items-start">
           <div class="col">
             <button value="rock"><i class="bi bi-gem"></i></button>
           </div>
@@ -45,9 +63,6 @@
           </div>
         </div>
 
-        <div class="player-info">
-
-        </div>
     </main>
 
     <script
