@@ -65,7 +65,7 @@ playRound = () => {
 
   }, 1000);
 
-  setTimeout(clearCPUHand, 1000);
+  setTimeout(clearCPUHand, 500);
 
 };
 
