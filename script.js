@@ -30,18 +30,24 @@ const userName = document.querySelector(".user-name");
 const userScore = document.querySelector(".user-score");
 const computerScore = document.querySelector(".computer-score");
 const computerHand = document.querySelector(".computer-hand");
+let playUntil;
 
 //event listeners
 submit.addEventListener("click", () => {
   p1.name = document.querySelector("input").value;
+  playUntil = document.querySelector("#play-until").value || 5;
   console.log(p1.name);
   userName.innerHTML = p1.name;
   userName.style.color = 'navy';
 });
 
 handButton.addEventListener("click", (e) => {
-  p1.hand = e.target.parentNode.value;
-  playRound();
+  if (p1.name == "") {
+    alert("state your name first, coward!");
+  } else {
+    p1.hand = e.target.parentNode.value;
+    playRound();
+  }
 });
 
 //game logic
@@ -63,10 +69,16 @@ playRound = () => {
 
     updateScore();
 
+    
   }, 1000);
 
-  setTimeout(clearCPUHand, 500);
+  if (p1.score >= playUntil) {
+    alert("you've bested me");
+  } else if (cpu.score >= playUntil) {
+    alert("you have lost the game; begone");
+  }
 
+  setTimeout(clearCPUHand, 500);
 };
 
 updateScore = () => {

@@ -17,8 +17,8 @@ And allows players to choose from three onscreen buttons to play against the CPU
 ### Next steps:
 * ~~Visual representation of CPU hand~~ 4/3
 * ~~Score counter + player information~~ 4/3
-* Play until option
+* ~~Play until option~~ 4/11
 * Animations?
-* Message when attempting to play without inputting name 
+* ~~Message when attempting to play without inputting name~~ can no longer play without inputting name 4/11
 
 
